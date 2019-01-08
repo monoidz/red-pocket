@@ -1,4 +1,4 @@
-# red-pocket
+# Lucky Pig
 ![Image description](https://github.com/monoidz/red-pocket/blob/master/logo.png)
 ## 游戏模式
 
