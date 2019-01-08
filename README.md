@@ -1,21 +1,15 @@
 # red-pocket
 
-> A Vue.js project
+## 游戏模式
 
-## Build Setup
+模式1: 发红包
+输入红包总额，红包个数，钱包地址。
 
-``` bash
-# install dependencies
-npm install
+模式2: 抢红包
+有效红包列表显示当前有效红包，包含红包总额，已经加入抢红包队列的总人数，红包个数未知。输入钱包地址后，可以加入抢红包队列。
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 奖励机制
+模式1: 根据加入队列总人数，以及用户排名，给予反馈。
+（用户排名由参与抢红包次数，是否为新用户，发红包次数三个因子决定）
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+模式2: 根据红包个数随机选择获奖人数和金额。
