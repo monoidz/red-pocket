@@ -1,5 +1,5 @@
 # red-pocket
-
+![Image description](https://github.com/monoidz/red-pocket/blob/master/logo.png)
 ## 游戏模式
 
 模式1: 发红包
