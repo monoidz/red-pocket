@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "tronweb": "^2.1.20",
+    "tronweb": "^2.10.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vue-property-decorator": "^7.0.0"
